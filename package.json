@@ -1,0 +1,23 @@
+{
+  "name": "filtertable",
+  "version": "1.0.1",
+  "description": "Simple library to implement text-based table filtering.",
+  "main": "filtertable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snapjs/filtertable.git"
+  },
+  "keywords": [
+    "filter",
+    "table"
+  ],
+  "author": "snapjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snapjs/filtertable/issues"
+  },
+  "homepage": "https://github.com/snapjs/filtertable#readme"
+}

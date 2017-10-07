@@ -1,4 +1,4 @@
-function filtertable(myTable, searchInput) {
+export function filtertable(myTable, searchInput) {
 	var table = document.getElementById(myTable);
 	table.setAttribute('style', 'table-layout: fixed');
 	addEventHandler(document, 'DOMContentLoaded', function() {
@@ -39,11 +39,12 @@ function filtertable(myTable, searchInput) {
 	    });
 	});
 
-}
-function addEventHandler(elem, eventType, handler) {
-    if (elem.addEventListener) {
-        elem.addEventListener (eventType, handler, false);
-    } else if (elem.attachEvent) {
-        elem.attachEvent ('on' + eventType, handler); 
-    }
+	function addEventHandler(elem, eventType, handler) {
+	    if (elem.addEventListener) {
+	        elem.addEventListener (eventType, handler, false);
+	    } else if (elem.attachEvent) {
+	        elem.attachEvent ('on' + eventType, handler); 
+	    }
+	}
+
 }
