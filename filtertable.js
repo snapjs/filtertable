@@ -48,4 +48,4 @@ function filtertable(myTable, searchInput) {
 	}
 
 }
-module.exports.filtertable = filtertable;
+module.exports = filtertable;
