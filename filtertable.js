@@ -1,4 +1,4 @@
-export default function filtertable(myTable, searchInput) {
+function filtertable(myTable, searchInput) {
 	var table = document.getElementById(myTable);
 	table.setAttribute('style', 'table-layout: fixed');
 	addEventHandler(document, 'DOMContentLoaded', function() {
@@ -48,3 +48,4 @@ export default function filtertable(myTable, searchInput) {
 	}
 
 }
+module.exports.filtertable = filtertable;
