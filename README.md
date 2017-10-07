@@ -29,12 +29,12 @@ The filtertable library just reqires a search box with an id and a table with an
     <tr>
       <td>Amie</td>
       <td>Appleton</td>
-      <td>Maketing Specialist</td>
+      <td>Marketing Specialist</td>
       <td>Acme, Inc.</td>
     </tr>
   </tbody>
 </table>
-<script type="text/javascript" src="https://cdn.rawgit.com/snapjs/filtertable/075d4ddc/filtertable.min.js"></script>
+<script type="text/javascript" src="filtertable.js"></script>
 ```
 
 ```html
@@ -42,6 +42,12 @@ The filtertable library just reqires a search box with an id and a table with an
   filtertable('my-table', 'search');
 </script>
 ```
+The package can be included via npm as well.
+```javascript
+var filtertable = require('filtertable');
+filtertable('my-table','search');
+```
+
 # The MIT License (MIT)
 Copyright © 2017 snapjs
 

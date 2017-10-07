@@ -1,6 +1,6 @@
 {
   "name": "filtertable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple library to implement text-based table filtering.",
   "main": "filtertable.js",
   "scripts": {
